@@ -1,0 +1,41 @@
+.container-form {
+    padding: 2.5%;
+}
+
+.img-form {
+    padding-top: 35%;
+    align-items: center;
+}
+
+.img-bg {
+    padding-top: 50%;
+    align-items: center;
+}
+
+.container-img img {
+    position: absolute;
+    z-index: -1;
+    width: 35%;
+    object-fit: cover;
+    opacity: 0.2;
+    top: -90%;
+    left: 350px;
+}
+
+@media screen and (max-width: 768px) {
+    .container-img img {
+        width: 60%;
+        top: 100px;
+        left: calc(50% - 30%);
+    }
+}
+
+.botao-form {
+    background-color: #3B2712;
+    border-color: #3B2712;
+    width: 100%;
+}
+
+.input-group input {
+    background-color: transparent;
+}

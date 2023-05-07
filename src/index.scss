@@ -1,0 +1,20 @@
+@import "../node_modules/bootstrap/scss/bootstrap";
+@import "bootstrap/dist/css/bootstrap.min.css";
+@import "bootstrap-icons/font/bootstrap-icons.css";
+
+
+@import "~bootstrap/scss/variables";
+
+$theme-colors: (
+    "primary": #a69e69,
+    "warning": #3b2712,
+);
+
+$theme-colors-text: (
+    "primary": #a69e69
+);
+
+$theme-colors-rgb: map-loop($theme-colors, to-rgb, "$value");
+
+@import "~bootstrap/scss/bootstrap";
+
